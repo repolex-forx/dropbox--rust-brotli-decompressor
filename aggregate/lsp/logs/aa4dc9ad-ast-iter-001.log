@@ -1,0 +1,7 @@
+[2026-11-22T21:16:04Z] === AST ITERATION 1 START | repo=dropbox/rust-brotli-decompressor sha=aa4dc9ad ===
+[2026-11-22T21:16:04Z] [iter=1] PHASE START: ast repo=dropbox/rust-brotli-decompressor sha=aa4dc9ad
+[2026-11-22T21:16:04Z] [iter=1] Building AST aggregate chunks
+[2026-11-22T21:18:05Z] [iter=1] AST chunks built count=1 triples=1228922
+[2026-11-22T21:18:05Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/aa4dc9adc7563395f9bc0d7ab7b9a898d323890a/.complete
+[2026-11-22T21:18:05Z] [iter=1] PHASE END: ast elapsed_s=121 elapsed_min=2.0
+[2026-11-22T21:18:05Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
