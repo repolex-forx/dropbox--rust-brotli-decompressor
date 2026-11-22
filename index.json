@@ -1,0 +1,11 @@
+{
+  "org": "dropbox",
+  "repo": "rust-brotli-decompressor",
+  "versions": [
+    {
+      "commit": "aa4dc9adc7563395f9bc0d7ab7b9a898d323890a",
+      "tag": "pre-vet-patches",
+      "parsed_at": "2026-11-22T22:45:48.213916+00:00"
+    }
+  ]
+}
