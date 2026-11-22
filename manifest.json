@@ -197,6 +197,349 @@
       ],
       "ast": [
         "aggregate/ast/aa4dc9adc7563395f9bc0d7ab7b9a898d323890a/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/aa4dc9adc7563395f9bc0d7ab7b9a898d323890a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "alloc-no-stdlib",
+          "ecosystem": "CARGO",
+          "version": ">=3.0.0, <4.0.0",
+          "githubOrg": "dropbox",
+          "githubRepo": "rust-alloc-no-stdlib",
+          "githubUrl": "https://github.com/dropbox/rust-alloc-no-stdlib",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "alloc-stdlib",
+          "ecosystem": "CARGO",
+          "version": ">=0.3.0, <0.4",
+          "githubOrg": "dropbox",
+          "githubRepo": "rust-alloc-no-stdlib",
+          "githubUrl": "https://github.com/dropbox/rust-alloc-no-stdlib",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "core/src/macros/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/result.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/io/stdio.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/vec/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/fs.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/time.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/iter/traits/iterator.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/slice/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/io/error.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/path.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/macros.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/slice.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/string.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "alloc/src/io/read.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/str/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/option.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/io/error.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/cmp.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/time.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/str/iter.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/ffi/os_str.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/io/write.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/mem/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/convert/num.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/default.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/num/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/ptr/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/io/cursor.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/convert/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/env.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/array/mod.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "core/src/slice/iter.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "random",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "glob",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "ntpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "posixpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "posix",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "subprocess",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "sys",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "core/src/lib.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "std/src/lib.rs",
+          "ecosystem": "CARGO",
+          "githubOrg": "rust-lang",
+          "githubRepo": "rust",
+          "source": "stdlib:rust"
+        },
+        {
+          "packageName": "struct",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],
